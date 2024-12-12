@@ -1,0 +1,107 @@
+html {
+    scroll-behavior: smooth;
+   }
+   body {
+    
+    justify-content: center;
+    min-height: 100vh;
+     font-family: arial;
+    }
+    .content {
+        background-color: rgb(233, 233, 233);
+        box-shadow: 0 0 2px black;
+        padding: 10px;
+        height: max-content;
+       display: flex;
+        margin-top: 50px;
+    }
+    textarea {
+        outline: none;
+        border-radius: 0px;
+        border-width: 1px;
+        border-style: double;
+        margin: 5px;
+        padding: 5px;
+        resize: none;
+        font-family: arial;
+    }
+    input {
+        outline: none;
+        border-radius: 0px;
+        border-width: 1px;
+        border-style: double;
+        margin: 5px;
+        padding: 5px;
+        font-family: arial;
+    }
+    button {
+        margin: 5px;
+        padding: 5px;
+        border-radius: 0px;
+        border-width: 1px;
+        border-style: double;
+        background-color: white;
+        cursor: pointer;
+    color: black;
+    }
+    button:hover {
+        background-color: rgb(233, 233, 233);
+    }
+    .logo {
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: 0px;
+        font-family:  "Dancing Script", cursive;
+        font-size: 25px;
+        background-color: white;
+        box-shadow: 0 0 3px black;
+        width: 100%;
+        padding: 3px;
+        display: flex;
+    }
+    .send {
+        opacity: 0%;   
+        background-color: rgb(233, 233, 233);
+        margin-top: 10px;
+        padding: 10px;
+        transition: 0.5s;
+        box-shadow: 0 0 2px black;
+    }
+    li {
+        width: 50%;
+        background-color: white;
+        padding: 15px;
+        font-size: 12px;
+        margin: 5px;
+        list-style: none;
+    }
+    .id-post {
+        display: none;
+    }
+    
+   table {
+    background-color: rgb(233, 233, 233);
+   border: none;
+   }
+   td {
+    background-color: rgb(233, 233, 233);
+   }
+   th {
+    background: linear-gradient(rgb(184, 207, 255),rgb(132, 171, 255) );
+   padding: 5px;
+   color: white;
+   text-shadow: 0 0 10px black;
+   }
+	a {
+	color: white;
+    text-decoration: none;
+     background: linear-gradient(rgb(184, 207, 255),rgb(132, 171, 255) );
+    border-width: 2px;
+    border-style: double;
+    border-color: transparent;
+	}
+	a:hover {
+    text-decoration: underline;
+    border-color: rgb(132, 171, 255);
+}
